@@ -1,0 +1,9 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+
+.warning {
+  color: purple;
+}
