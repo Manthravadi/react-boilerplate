@@ -4,7 +4,8 @@
   "description": "React boilerplate project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack"
   },
   "keywords": [
     "React",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Manthravadi/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/Manthravadi/react-boilerplate#readme"
+  "homepage": "https://github.com/Manthravadi/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
