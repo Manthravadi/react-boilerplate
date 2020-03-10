@@ -11,5 +11,13 @@
     "Boilerplate"
   ],
   "author": "Manthravadi",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manthravadi/react-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Manthravadi/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Manthravadi/react-boilerplate#readme"
 }
