@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "settings": { "react": { "version": "16.13.0" } },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y"]
+  //Reason to comment is because we use Prettier to handle it anyway
+  //   "rules": {
+  //     "indent": ["error", 4],
+  //     "linebreak-style": ["error", "unix"],
+  //     "quotes": ["error", "single"],
+  //     "semi": ["error", "never"]
+  //   }
+}

@@ -8,7 +8,7 @@ describe('App', () => {
     render(<App />)
   })
 
-  it('Fails', () => {
-    expect(true).toBe(false)
-  })
+  // it('Fails', () => {
+  //   expect(true).toBe(false)
+  // })
 })

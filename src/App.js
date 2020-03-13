@@ -2,9 +2,6 @@ import React from 'react'
 import { hot } from 'react-hot-loader'
 
 const Warning = React.lazy(() => import('./Warning'))
-const a = 'A'
-const b = 'B'
-const c = 'B'
 class App extends React.Component {
   state = {
     count: 0
